@@ -1,0 +1,26 @@
+Decision Tree Classification:
+This repository contains a Python script that demonstrates how to implement a decision tree classification model using scikit-learn. The model is trained to predict user behavior based on social network advertisement data.
+
+Features:
+Data Preprocessing: Load and split data into training and test sets.
+Model Training: Train a decision tree classifier to identify whether a user will purchase a product based on features like Age and Estimated Salary.
+Evaluation: Evaluate the model using a confusion matrix and accuracy score.
+Model Insights: Display the model's performance metrics such as Bias and Variance.
+
+Dataset:
+The dataset used (Social_Network_Ads.csv) includes attributes such as Age and Estimated Salary of users along with their purchasing behaviors (Purchased or not). The primary goal is to predict the Purchase based on the given features.
+
+Usage:
+To run this script, you will need Python installed on your machine along with the following Python libraries:
+NumPy
+Pandas
+Matplotlib
+scikit-learn
+Results:
+The script will output:
+
+A confusion matrix of the test results.
+
+Accuracy of the model on the test set.
+
+Bias and Variance scores indicating the model's performance on training and test data.
